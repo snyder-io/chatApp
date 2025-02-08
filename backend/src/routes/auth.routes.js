@@ -3,13 +3,13 @@ const router = express.Router();
 
 router
     .route('/signup')
-    .get((req, res) => {
+    .post((req, res) => {
         res.send('SignUp Route')
     });
 
 router
     .route('/login')
-    .get((req, res) => {
+    .post((req, res) => {
         res.send('LogIn Route')
     });
 
